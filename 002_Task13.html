@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-             display: flex;
-            justify-content: center;
-            align-items: center;
-           
-        }
-    .container {
-      
-      flex-direction: column-reverse; 
-     
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flex Column Reverse Example</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      margin: 0;
     }
-     .item {
+
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .item {
       padding: 20px;
       background-color: #8be0f5;
       border: 1px solid #333;
       font-weight: bold;
+      margin: 5px;
     }
   </style>
 </head>
 <body>
-     <div class="container">
+  <div class="container">
     <div class="item">Item 1</div>
     <div class="item">Item 2</div>
     <div class="item">Item 3</div>
   </div>
 </body>
 </html>
-
-
-
-
-
-  
-
-   
