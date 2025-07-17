@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tooltip{
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted red;
+        }
+        .tooltip .tooltiptext{
+            visibility: hidden;
+            width: 130px;
+            background-color: rgb(43, 226, 220);
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+
+            position: absolute;
+            z-index: 1;
+      
+        }
+        .tooltip:hover .tooltiptext {
+        visibility: visible;
+       }
+    </style>
+</head>
+<body>
+    <div class="tooltip">Mouse
+        <span class="tooltiptext">Tooltip Text</span>
+    </div>
+    
+</body>
+</html>
